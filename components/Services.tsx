@@ -13,7 +13,7 @@ export const Services = () => {
                         <div className="p-5 bg-blue-50 border border-black rounded-md max-w-md z-10 relative">
 
                             <p className="text-gray-600 mt-4 text-lg">
-                                I offer a range of services designed to bring your ideas to life. From full-stack web development and API integration to performance optimization and custom software solutions, my expertise ensures that your project is not only functional but also future-proof. Let's collaborate to build robust, scalable applications that exceed your expectations.
+                                I offer a range of services designed to bring your ideas to life. From full-stack web development and API integration to performance optimization and custom software solutions, my expertise ensures that your project is not only functional but also future-proof. Let&apos;s collaborate to build robust, scalable applications that exceed your expectations.
                             </p>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ export const Services = () => {
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800 mt-4">API Integration</h3>
                             <p className="text-gray-600 mt-2">
-                                Seamlessly connecting your application with external services through robust API integration, enabling smooth data exchange and enhancing functionality across various platforms.                            </p>
+                                Seamlessly connecting your application with external services through robust API integration, enabling smooth data exchange and enhancing functionality across various platforms.  </p>
                         </div>
 
 

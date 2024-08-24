@@ -15,7 +15,7 @@ export const IntroSection = () => {
                         <Typing />
                         <h5 className="md:text-5xl md:leading-normal text-3xl leading-normal font-bold mt-3">Innovative Solutions  <br /> by Kuldeep Kumar</h5>
 
-                        <p className="text-slate-400 dark:text-white/60 text-[17px] max-w-xl mt-4">Passionate Full-Stack Developer with expertise in creating dynamic web applications and delivering innovative digital solutions. Let's build together!</p>
+                        <p className="text-slate-400 dark:text-white/60 text-[17px] max-w-xl mt-4">Passionate Full-Stack Developer with expertise in creating dynamic web applications and delivering innovative digital solutions. Let&apos;s build together!</p>
 
                         <div className="flex items-center gap-4 mt-6">
                             <div className="">

@@ -10,7 +10,7 @@ export const MySkills = () => {
             <div className="max-w-xl mx-auto text-center">
                 <div className="text-center flex flex-col justify-center mb-10 w-full max-w-lg">
                     <h6 className='text-lg font-medium sub-title ancent'>My Skills</h6>
-                    <h2 className='text-4xl font-extrabold '>I Can Transform Your Idea's into Reality with my Skills </h2>
+                    <h2 className='text-4xl font-extrabold '>I Can Transform Your Idea&apos;s into Reality with my Skills </h2>
                 </div>
             </div>
             <Tabs defaultValue="frontend">
@@ -31,12 +31,12 @@ export const MySkills = () => {
                     </div>
                 </TabsContent>
                 <TabsContent value="backend">
-                    <div className="flex flex-col md:flex-row items-center container   ">
+                    <div className="flex flex-col md:flex-row items-center container ">
                         <div className="w-full md:w-1/2 ">
                             <BackendSkills />
                         </div>
                         <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
-                            <h1 className="text-4xl font-bold text-gray-900">I Can Transform Your Idea's into Reality with my Skills</h1>
+                            <h1 className="text-4xl font-bold text-gray-900">I Can Transform Your Idea&apos;s into Reality with my Skills</h1>
                             <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores odio ullam voluptate, fugit placeat.</p>
                             <Tags tags={backendTools} key="backend" />
                         </div>
