@@ -12,11 +12,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans min-h-screen">
+    <div className="">
       <main className="">
-        {/* <Navbar /> */}
         <IntroSection />
-        {/* <AboutSection /> */}
         <section className="flex items-center justify-center bg-white about_me">
           <AboutMe />
         </section>
@@ -36,7 +34,7 @@ export default function Home() {
           <div className="max-w-xl mx-auto text-center">
             <div className="text-center flex flex-col justify-center w-full max-w-lg">
               <h6 className='text-lg font-medium sub-title ancent'>Recent Project</h6>
-              <h2 className='text-4xl font-extrabold '>Custom Solutions for Unique Challenges </h2>
+              <h2 className='text-base md:text-4xl font-extrabold '>Custom Solutions for Unique Challenges </h2>
             </div>
           </div>
           <section className="flex justify-center items-center py-6 pb-20    ">

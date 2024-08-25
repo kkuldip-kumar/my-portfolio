@@ -1,7 +1,8 @@
 'use client'
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-
+import logo from "@/public/logo/logo.png"
+import Image from "next/image";
 export const Navbar: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
@@ -33,12 +34,12 @@ export const Navbar: React.FC = () => {
                         title="Company"
                         className="inline-flex items-center mr-8"
                     >
-
-                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                        <Image src={logo} alt="" width={100} height={80} />
+                        {/* <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                             Logo
-                        </span>
+                        </span> */}
                     </Link>
-                    <ul className="items-center hidden md:flex  space-x-8 lg:flex">
+                    {/* <ul className="items-center hidden md:flex  space-x-8 lg:flex">
                         <li>
                             <Link
                                 href="/projects"
@@ -70,11 +71,11 @@ export const Navbar: React.FC = () => {
                                 Contact Me
                             </Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <ul className="flex items-center space-x-8 lg:flex">
                     <li>
-                        <Link href="/" className="inline-block bg-custom-gradient text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition">
+                        <Link href="/resume/Resume_Kuldip_Kumar.pdf" target="_blank" download="Kuldip_Kumar_Resume" className="inline-block bg-custom-gradient text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition">
                             Hire me
                         </Link>
                     </li>

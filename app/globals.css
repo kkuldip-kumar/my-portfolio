@@ -327,7 +327,17 @@ ul.list-double li::after {
   padding-left: var(--slide-spacing);
 }
 
+@media (max-width: 650px) {
+  ._banner_container {
+    height: 35dvh !important;
+  }
+}
+
 @media (min-width: 750px) {
+  ._banner_container {
+    height: 35px;
+  }
+
   .embla__slide {
     flex: 0 0 var(--slide-size-sm);
     padding-left: var(--slide-spacing-sm);

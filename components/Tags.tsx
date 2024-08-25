@@ -9,16 +9,16 @@ export const Tags = ({ tags }: tagProp) => {
             <div className="flex flex-wrap space-x-3 space-y-3 items-end justify-start transform ">
                 {tags.map((item) => (
 
-                    <div key={item.id} className="bg-blue-500 text-white px-4 py-2 rounded-full">{item.name}</div>
+                    <div key={item.id} className="bg-blue-500 text-white md:px-4 px-2 py-1 md:py-2 rounded-full">{item.name}</div>
                 ))}
-                <div className="bg-pink-500 text-white px-4 py-2 rounded-full transform ">Testing</div>
-                <div className="bg-pink-500 text-white px-4 py-2 rounded-full">Docker</div>
-                <div className="bg-teal-500 text-white px-4 py-2 rounded-full">Maintenance</div>
-                <div className="bg-yellow-400 text-black px-4 py-2 rounded-full">Git</div>
-                <div className="bg-yellow-400 text-black px-4 py-2 rounded-full flex items-center justify-center">
+                <div className="bg-pink-500 text-white md:px-4 px-2 py-1 md:py-2 rounded-full transform ">Testing</div>
+                <div className="bg-pink-500 text-white md:px-4 px-2 py-1 md:py-2 rounded-full">Docker</div>
+                <div className="bg-teal-500 text-white md:px-4 px-2 py-1 md:py-2 rounded-full">Maintenance</div>
+                <div className="bg-yellow-400 text-black md:px-4 px-2 py-1 md:py-2 rounded-full">Git</div>
+                <div className="bg-yellow-400 text-black md:px-4 px-2 py-1 md:py-2 rounded-full flex items-center justify-center">
                     Customize solutions
                 </div>
-                <div className="bg-blue-500 text-white px-4 py-2 rounded-full">Deployment</div>
+                <div className="bg-blue-500 text-white md:px-4 px-2 py-1 md:py-2 rounded-full">Deployment</div>
             </div>
         </div>
     )

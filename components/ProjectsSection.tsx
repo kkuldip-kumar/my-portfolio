@@ -11,21 +11,21 @@ export const ProjectsSection = () => {
     return (
         <div className="container py-6 md:py-12 space-y-6 md:space-y-0 md:space-x-8">
             <Tabs defaultValue="all">
-                <TabsList className='max-w-4xl mx-auto text-center flex  justify-center  bg-transparent mb-8 '>
-                    <TabsTrigger className='flex-grow text-black font-semibold text-base' value="all">All</TabsTrigger>
-                    <TabsTrigger className='flex-grow text-black font-semibold text-base' value="react">React Js</TabsTrigger>
-                    <TabsTrigger className='flex-grow text-black font-semibold text-base' value="nodejs">Node Js</TabsTrigger>
-                    <TabsTrigger className='flex-grow text-black font-semibold text-base' value="mongodb">MongoDB</TabsTrigger>
-                    <TabsTrigger className='flex-grow text-black font-semibold text-base' value="mysql">MySql</TabsTrigger>
-                    <TabsTrigger className='flex-grow text-black font-semibold text-base' value="nestjs">NestJs</TabsTrigger>
-                    <TabsTrigger className='flex-grow text-black font-semibold text-base' value="angular">Angular</TabsTrigger>
+                <TabsList className='md:max-w-4xl mx-auto text-center flex  justify-center  bg-transparent mb-8 '>
+                    <TabsTrigger className='md:flex-grow px-2 text-[11px] text-black font-semibold md:text-base' value="all">All</TabsTrigger>
+                    <TabsTrigger className='md:flex-grow px-2 text-[11px] text-black font-semibold md:text-base' value="react">React Js</TabsTrigger>
+                    <TabsTrigger className='md:flex-grow px-2 text-[11px] text-black font-semibold md:text-base' value="nodejs">Node Js</TabsTrigger>
+                    <TabsTrigger className='md:flex-grow px-2 text-[11px] text-black font-semibold md:text-base' value="mongodb">MongoDB</TabsTrigger>
+                    <TabsTrigger className='md:flex-grow px-2 text-[11px] text-black font-semibold md:text-base' value="mysql">MySql</TabsTrigger>
+                    <TabsTrigger className='md:flex-grow px-2 text-[11px] text-black font-semibold md:text-base' value="nestjs">NestJs</TabsTrigger>
+                    <TabsTrigger className='md:flex-grow px-2 text-[11px] text-black font-semibold md:text-base' value="angular">Angular</TabsTrigger>
                 </TabsList>
                 <TabsContent value="all">
                     <MotionSection
                         variants={gridContainerVariants}
                         initial="hidden"
                         animate="show"
-                        className='grid md:grid-cols-3 gap-4'
+                        className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'
                     >
                         {projects.map((item: Project) => (
                             <ProjectCardTwo project={item} key={item.id} />
@@ -37,7 +37,7 @@ export const ProjectsSection = () => {
                         variants={gridContainerVariants}
                         initial="hidden"
                         animate="show"
-                        className='grid md:grid-cols-3 gap-4'
+                        className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'
                     >
                         {projects.map((item: Project) => (
                             <ProjectCardTwo project={item} key={item.id} />
@@ -49,7 +49,7 @@ export const ProjectsSection = () => {
                         variants={gridContainerVariants}
                         initial="hidden"
                         animate="show"
-                        className='grid md:grid-cols-3 gap-4'
+                        className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'
                     >
                         {projects.map((item: Project) => (
                             <ProjectCardTwo project={item} key={item.id} />
@@ -61,7 +61,7 @@ export const ProjectsSection = () => {
                         variants={gridContainerVariants}
                         initial="hidden"
                         animate="show"
-                        className='grid md:grid-cols-3 gap-4'
+                        className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'
                     >
                         {projects.map((item: Project) => (
                             <ProjectCardTwo project={item} key={item.id} />
@@ -73,7 +73,7 @@ export const ProjectsSection = () => {
                         variants={gridContainerVariants}
                         initial="hidden"
                         animate="show"
-                        className='grid md:grid-cols-3 gap-4'
+                        className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'
                     >
                         {projects.map((item: Project) => (
                             <ProjectCardTwo project={item} key={item.id} />
@@ -85,7 +85,7 @@ export const ProjectsSection = () => {
                         variants={gridContainerVariants}
                         initial="hidden"
                         animate="show"
-                        className='grid md:grid-cols-3 gap-4'
+                        className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'
                     >
                         {projects.map((item: Project) => (
                             <ProjectCardTwo project={item} key={item.id} />
@@ -97,7 +97,7 @@ export const ProjectsSection = () => {
                         variants={gridContainerVariants}
                         initial="hidden"
                         animate="show"
-                        className='grid md:grid-cols-3 gap-4'
+                        className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'
                     >
                         {projects.map((item: Project) => (
                             <ProjectCardTwo project={item} key={item.id} />

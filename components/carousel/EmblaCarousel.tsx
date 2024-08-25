@@ -37,7 +37,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
                     <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
                 </div>
-                <div className="md:flex md:justify-end">
+                <div className="flex justify-end">
                     <Link
                         href="/projects"
                         aria-label="Projects"

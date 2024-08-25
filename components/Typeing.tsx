@@ -6,14 +6,16 @@ export const Typing = () => {
         <TypeAnimation
             sequence={[
                 // Same substring at the start will only be typed out once, initially
+                'I am Software Developer',
+                1000,
                 'I am Frontend Developer',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000,
                 'I am Backend Developer',
                 1000,
                 'I am  Website Designer',
                 1000,
-                'I am DevOps Developer',
-                1000
+                // 'I am DevOps Developer',
+                // 1000
             ]}
             wrapper="span"
             speed={40}

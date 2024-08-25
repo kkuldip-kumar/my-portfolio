@@ -9,10 +9,10 @@ export const Services = () => {
                 <div className="flex flex-col md:flex-row md:space-x-10">
                     <div className="flex-1 text-center md:text-left mb-10 md:mb-0">
                         <h4 className=" font-semibold text-xl sub-title">My Services</h4>
-                        <h1 className="text-4xl font-bold text-gray-800 max-w-md mt-2 mb-4">Tailored Software Solutions for Your Needs</h1>
-                        <div className="p-5 bg-blue-50 border border-black rounded-md max-w-md z-10 relative">
+                        <h1 className=" text-base md:text-4xl font-bold text-gray-800 max-w-md mt-2 mb-4">Tailored Software Solutions for Your Needs</h1>
+                        <div className="p-2 md:p-5 bg-blue-50 border border-black rounded-md max-w-md z-10 relative">
 
-                            <p className="text-gray-600 mt-4 text-lg">
+                            <p className="text-gray-600 mt-4 md:text-lg">
                                 I offer a range of services designed to bring your ideas to life. From full-stack web development and API integration to performance optimization and custom software solutions, my expertise ensures that your project is not only functional but also future-proof. Let&apos;s collaborate to build robust, scalable applications that exceed your expectations.
                             </p>
                         </div>

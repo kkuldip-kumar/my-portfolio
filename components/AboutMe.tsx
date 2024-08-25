@@ -8,7 +8,7 @@ export const AboutMe = () => {
 
                 <h6 className="sub-title font-semibold text-xl">About Me</h6>
 
-                <h1 className="text-4xl font-bold text-gray-900">Passionate Software Developer Crafting Digital Solutions</h1>
+                <h1 className="text-base md:text-4xl font-bold text-gray-900">Passionate Software Developer Crafting Digital Solutions</h1>
                 <p className="text-gray-600">I am a passionate software developer with a knack for turning complex problems into efficient solutions. With expertise in modern technologies and a focus on clean, scalable code, I thrive on building innovative applications that make a difference. Let&apos;s create something amazing together!</p>
             </div>
             <div className="w-full md:w-1/2 ">

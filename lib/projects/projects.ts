@@ -5,6 +5,7 @@ export const projects = [
         tag: "Furnitures at Rent",
         description: `A monthly subscription service for home appliances, providing easy access to furniture and decor for as long as you need. It offers a flexible and convenient way to furnish your home without long-term commitments, tailored to your lifestyle.`,
         imgags: '/images/feather.png',
+        techStack: ['react js, next js, mongoDB'],
         url: 'https://livefeather.com/'
     },
     {
@@ -13,6 +14,7 @@ export const projects = [
         tag: "Rent on neighbourhood",
         description: `A platform where locals can rent various items for home tasks, recreation, or professional needs, promoting resource sharing and fostering community connections. It offers a convenient way to access tools and equipment without the need for ownership.`,
         imgags: '/images/fatlama.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://fatllama.com/uk"
     },
     {
@@ -21,6 +23,7 @@ export const projects = [
         tag: "Health Solution",
         description: `An online healthcare platform offers consultations via a questionnaire reviewed by a doctor, followed by medication delivery to the customer. It streamlines medical advice, ensuring timely access to necessary treatments, all from the comfort of home.`,
         imgags: '/images/myorx1.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://mindyourownrx.com/"
     },
     {
@@ -30,6 +33,7 @@ export const projects = [
         description: `It is  a benchmarking tool for analysis of competitive advantages that company has compared to chosen industries/companies. In This Platform companies conduct assessment by his employees to get the result driven data to scale the
 business, sales, revenue growth.`,
         imgags: '/images/mtd.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://insights.mtd.info/"
     },
     {
@@ -38,6 +42,7 @@ business, sales, revenue growth.`,
         tag: "Business Consulting services",
         description: `A portfolio website is a personalized showcase of an IT service company's work and skills, highlighting their expertise in providing tailored software solutions. It serves as a digital portfolio to demonstrate their capabilities and attract potential clients.`,
         imgags: '/images/zonvoir.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://zonvoir.com/"
     },
     {
@@ -45,7 +50,8 @@ business, sales, revenue growth.`,
         name: "Rental",
         tag: "Vehicle Rent services",
         description: `Our service offers vehicle and driver rentals, similar to mini OLA. We provide convenient, reliable transportation solutions with a range of vehicles and professional drivers, ensuring a seamless and comfortable experience for all your travel needs.`,
-        imgags: '/images/rental.png',
+        imgags: '/images/rent.png',
+        techStack: ['react js, next js, mongoDB'],
         url: ""
     },
     {
@@ -54,6 +60,7 @@ business, sales, revenue growth.`,
         tag: "E-commerce service",
         description: `Our e-commerce web application delivers a seamless shopping experience with vehicle and driver rentals. Users can easily book vehicles and drivers, manage rentals, and enjoy reliable service, all through an intuitive, user-friendly platform designed for convenience and efficiency.`,
         imgags: '/images/make-easy.png',
+        techStack: ['react js, next js, mongoDB'],
         url: ""
     },
     {
@@ -62,6 +69,7 @@ business, sales, revenue growth.`,
         tag: "Location Based services Using AI",
         description: `A high-performance, responsive platform designed for businesses, government, real estate, and social interaction. It enables users to share local information and address community issues efficiently, fostering communication and collaboration across various sectors to drive local engagement.`,
         imgags: '/images/finder.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://www.myfinder.com/en"
     },
     {
@@ -70,6 +78,7 @@ business, sales, revenue growth.`,
         tag: "Manage Training candidates",
         description: 'Shreysun Global Group delivers top-tier crewing, technical, flag state documentation, and maritime training services. We ensure high-quality support for vessel operations and comprehensive pre-sea and post-sea training, consistently meeting client expectations with timely and fully satisfactory services.',
         imgags: '/images/shreysun.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://shreysun.in/home"
     },
     {
@@ -77,7 +86,8 @@ business, sales, revenue growth.`,
         name: "Funnel builder",
         tag: "Wordpress plugin in React",
         description: `A strategy designed to boost sales and increase average order value by incorporating order bumps and one-click upsells. This approach encourages customers to add more items to their purchase, enhancing revenue with minimal effort and maximizing profitability.`,
-        imgags: '/images/rental.png',
+        imgags: '/images/rent.png',
+        techStack: ['react js, next js, mongoDB'],
         url: ""
     },
 
@@ -87,14 +97,16 @@ business, sales, revenue growth.`,
         tag: "Track MR Activity and Doctor locations",
         description: `A web application designed to track medical representatives' activities, manage doctor records, monitor MR salaries, and organize daily and monthly visit plans. It streamlines operations, ensuring efficient scheduling, record-keeping, and performance tracking for pharmaceutical teams`,
         imgags: '/images/MRR.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://mrreporting.app/#/login"
     },
     {
         id: 12,
         name: "Maternal, Perinatal, Child Death Surveillance and Response",
-        tag: "Location Based services",
+        tag: "",
         description: `Maternal, Perinatal, and Child Death Surveillance and Response in India focuses on monitoring and analyzing deaths to improve health outcomes. This initiative aims to identify causes, enhance care strategies, and reduce mortality rates through targeted interventions and comprehensive response mechanisms.`,
         imgags: '/images/mpcdsr.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://mpcdsrindia.mohfw.gov.in/"
     },
     {
@@ -103,6 +115,7 @@ business, sales, revenue growth.`,
         tag: "Manage TB Patient data",
         description: "Managing TB patient data in Himachal Pradesh involves aggregating and analyzing detailed information at various levels, including State, District, and PHI. This data supports targeted interventions, enhancing diagnosis, treatment, and monitoring efforts across the region",
         imgags: '/images/tv-mukat.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://tbweb.espldemo.com/"
     },
     {
@@ -111,6 +124,7 @@ business, sales, revenue growth.`,
         tag: "Location Based services",
         description: `A high-performance, responsive platform designed for businesses, government, real estate, and social interaction. It enables users to share local information and address community issues efficiently, fostering communication and collaboration across various sectors to drive local engagement.`,
         imgags: '/images/masonOne.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://masonone.us/"
     },
     {
@@ -119,6 +133,7 @@ business, sales, revenue growth.`,
         tag: "Location Based services",
         description: `A basic chat application enables users to send and receive messages in real-time. It includes essential features like user authentication, message notifications, and chat history, facilitating seamless communication across multiple devices in a secure environment.`,
         imgags: '/images/agape.png',
+        techStack: ['react js, next js, mongoDB'],
         url: ""
     },
     {
@@ -127,6 +142,7 @@ business, sales, revenue growth.`,
         tag: "Location Based services",
         description: `Our mobile app harnesses the power of kindness to inspire compassionate actions. It facilitates easy sharing of kind acts, encourages community engagement, and fosters a ripple effect of empathy, helping to build stronger, more connected, and caring communities.`,
         imgags: '/images/agape.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://agapeacts.com/"
     },
     {
@@ -135,6 +151,7 @@ business, sales, revenue growth.`,
         tag: "Location Based services",
         description: `The admin panel provides powerful tools for managing records and controlling user access on a high-performance platform. It allows efficient oversight of local information, community issues, and sector-specific interactions, enhancing communication and collaboration for businesses, government, real estate, and social interactions.`,
         imgags: '/images/mason-admin.png',
+        techStack: ['react js, next js, mongoDB'],
         url: "https://admin.masonone.us/"
     },
 ]
